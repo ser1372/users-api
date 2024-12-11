@@ -62,10 +62,25 @@
   ```json
   {
       "id": 1,
-      "username": "updateduser",
-      "email": "updateduser@example.com"
+      "login": "updateduser",
+      "phone": "12345"
   }
   ```
+
+
+### Get a User
+- **Endpoint**: `/v1/api/users/{id}`
+- **Method**: `GET`
+- **Description**: Get an existing user.
+
+- **Response**:
+```json
+{
+    "login": "updateduser",
+    "phone": "123456",
+    "pass": "qweqasd123123"
+}
+```
 
 ### Delete a User
 - **Endpoint**: `/v1/api/users/{id}`
