@@ -1,0 +1,9 @@
+api_platform:
+    title: Users API Platform
+    version: 1.0.0
+    enable_docs: false
+    defaults:
+        stateless: true
+        cache_headers:
+            vary: ['Content-Type', 'Authorization', 'Origin']
+
