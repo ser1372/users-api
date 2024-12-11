@@ -73,7 +73,5 @@
 - **Description**: Deletes an existing user.
 - **Response**:
   ```json
-  {
-      "message": "User deleted successfully."
-  }
+  {}
   ```
